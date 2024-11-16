@@ -1,0 +1,54 @@
+
+#aboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#aboutMe-text, #aboutMe-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 0;
+}
+
+#aboutMe-text {
+    padding: 0 10px; /* Aproxima o texto da imagem */
+}
+
+.text-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: justify;
+    border: 2px solid #0E869B; /* Borda do card */
+}
+
+#aboutMe-img {
+    padding: 0 10px; /* Aproxima a imagem do texto */
+}
+
+.img-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.img-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.old-standard-tt-regular {
+    font-family: 'Merriweather', serif;
+}
